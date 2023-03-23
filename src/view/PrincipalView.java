@@ -290,7 +290,7 @@ public class PrincipalView extends JFrame {
 		contentPane.add(lblNewLabel_1_1_2_1_1_1_1_1, gbc_lblNewLabel_1_1_2_1_1_1_1_1);
 		
 		jtfCuota = new JTextField();
-		 jtfCuota.getDocument().addDocumentListener(new DocumentListener() {
+		jtfCuota.getDocument().addDocumentListener(new DocumentListener() {
 			
 			@Override
 			public void removeUpdate(DocumentEvent e) {
